@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1069598239182",
+    "project_id": "surakshamitra-a0cb2",
+    "storage_bucket": "surakshamitra-a0cb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069598239182:android:543e67bd5ac56d4dd0639f",
+        "android_client_info": {
+          "package_name": "com.example.surakshamitra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE-dj20hr5fCzTU55PrJF--0Df_JbRXnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

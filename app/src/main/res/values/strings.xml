@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SurakshaMitra</string>
+    <string name="surakshamitra_app_logo">SurakchaMitra app logo</string>
+    <string name="marathi_appname">सुरक्षामित्र\n</string>
+    <string name="apptagline">|| सुरक्षितं जीवनं विधाय ||</string>
+    <string name="create_login">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="rightsMainLabel">All Right Reserved @2023</string>
+    <string name="hello_team">Hello Team</string>
+    <string name="Username">UserName</string>
+    <string name="agency_name">Agency Name</string>
+    <string name="agency_type">Agency Type</string>
+    <string name="address">Address</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="total_members">Total Members</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="register">Register</string>
+    <string name="already_have_account">Already have account?</string>
+    <string name="hello">Hello</string>
+    <string name="email_id">Email id</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="title_activity_dash_compose_test">DashComposeTest</string>
+    <string name="title_activity_agency_info">agency_info</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        vitae volutpat diam dignissim.
+    </string>
+    <string name="welcome_back">Welcome Back !!</string>
+    <string name="title_activity_dash_board_composable">DashBoardComposable</string>
+    <string name="dash">Dashboard</string>
+    <string name="panic">Alert</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="active_teams_20">Available Teams: 20</string>
+    <string name="total_teams_40">Total Teams: 40</string>
+    <string name="total_request_come_3">Total Request Come: 3</string>
+    <string name="upload_authorized_id">Upload Authorized ID</string>
+</resources>

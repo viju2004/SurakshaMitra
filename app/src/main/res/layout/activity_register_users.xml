@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/gradient_background">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lightblue"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/heptaslab"
+        android:text="@string/hello"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.276"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/heptaregular"
+        android:text="Team"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/exitbutton"
+        android:layout_width="28sp"
+        android:layout_height="28sp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/close"
+        app:layout_constraintBottom_toTopOf="@+id/agency_name_edit_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <EditText
+        android:id="@+id/address_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="@drawable/textround"
+        android:hint="@string/address"
+        android:inputType="text"
+        android:paddingLeft="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agency_type"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <EditText
+        android:id="@+id/agency_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginBottom="568dp"
+        android:background="@drawable/textround"
+        android:hint="@string/agency_name"
+
+        android:inputType="text"
+        android:paddingLeft="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/agency_type"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/textround"
+        android:paddingLeft="10sp"
+        android:prompt="@string/agency_type"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agency_name_edit_text"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <EditText
+        android:id="@+id/email_id"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="@drawable/textround"
+        android:hint="@string/email_id"
+        android:paddingStart="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone_number_edit_text"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <EditText
+        android:id="@+id/phone_number_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="@drawable/textround"
+        android:hint="Phone no"
+        android:inputType="phone"
+        android:paddingLeft="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/address_edit_text"
+        app:layout_constraintVertical_bias="0.042" />
+
+
+    <EditText
+        android:id="@+id/total_members_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginBottom="252dp"
+        android:background="@drawable/textround"
+        android:hint="@string/total_members"
+        android:paddingLeft="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/password_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginBottom="192dp"
+        android:background="@drawable/textround"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingLeft="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/confirm_password_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginBottom="132dp"
+        android:background="@drawable/textround"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        android:paddingLeft="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/hepta"
+        android:text="@string/register"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:backgroundTint="@color/lightyellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+    <Button
+
+        android:id="@+id/uploadImgBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background"
+        android:drawableStart="@drawable/icuploadimg"
+    android:drawablePadding="8dp"
+    android:gravity="start|center_vertical"
+    android:fontFamily="@font/hepta"
+    android:text="@string/upload_authorized_id"
+    android:textColor="@color/black"
+    android:textSize="20sp"
+    app:backgroundTint="@color/lightyellow"
+    app:layout_constraintBottom_toTopOf="@+id/register_button"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

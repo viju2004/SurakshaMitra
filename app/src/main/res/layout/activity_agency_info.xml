@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#E2FBF5">
+
+    <ImageView
+        android:id="@+id/agencyinfo_profilImg"
+        android:layout_width="114dp"
+        android:layout_height="111dp"
+        android:src="@drawable/user_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <ImageView
+        android:id="@+id/infobackBtn"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:src="@drawable/back_arrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notification_bell"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034" />
+
+
+    <TextView
+        android:id="@+id/agencyinfoEmail"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:fontFamily="@font/hepta"
+        android:paddingTop="10dp"
+        android:background="@drawable/textround"
+        android:hint="Email"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agencyinfo_username"
+        app:layout_constraintVertical_bias="0.171" />
+
+    <TextView
+        android:id="@+id/infoagencyName"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:paddingTop="10dp"
+        android:fontFamily="@font/hepta"
+        android:background="@drawable/textround"
+        android:hint="@string/agency_name"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355" />
+
+    <TextView
+        android:id="@+id/infoagencyTotalmembers"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:paddingTop="10dp"
+
+        android:fontFamily="@font/hepta"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/textround"
+        android:hint="Total Members"
+        android:paddingLeft="20dp"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoagencyContactNO"
+        app:layout_constraintVertical_bias="0.204" />
+
+    <TextView
+        android:id="@+id/agencyinfo_username"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:paddingTop="10dp"
+        android:fontFamily="@font/hepta"
+
+        android:background="@drawable/textround"
+        android:hint="@string/Username"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.259" />
+
+    <TextView
+        android:id="@+id/infoagencyType"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:paddingTop="10dp"
+        android:fontFamily="@font/hepta"
+
+        android:background="@drawable/textround"
+        android:hint="Agency Type"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agencyinfoEmail"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <TextView
+        android:id="@+id/infoagencyAdd"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:paddingTop="10dp"
+        android:fontFamily="@font/hepta"
+
+        android:background="@drawable/textround"
+
+        android:hint="Address"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoagencyTotalmembers"
+        app:layout_constraintVertical_bias="0.153" />
+
+    <TextView
+        android:id="@+id/infoagencyContactNO"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:paddingTop="10dp"
+
+        android:background="@drawable/textround"
+        android:fontFamily="@font/hepta"
+        android:hint="Mobile No"
+        android:paddingLeft="20dp"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoagencyType"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="320sp"
+        android:layout_height="50sp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/hepta"
+        android:text="Edit Profile"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        app:backgroundTint="@color/lightyellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoagencyAdd"
+        app:layout_constraintVertical_bias="0.326" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
